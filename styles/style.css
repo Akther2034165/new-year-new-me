@@ -4,11 +4,25 @@
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
+.primary-btn {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: #005fac;
+  margin-bottom: 100px;
+}
+
+/* header css */
 .header {
   background-image: url("../images/banner/banner3.png");
-  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
-  text-align: right;
+  width: 100%;
+  background-repeat: no-repeat;
 }
 .banner {
   padding-left: 845px;
@@ -26,21 +40,12 @@
   color: #ffffff;
   margin: 15px;
 }
-.primary-btn {
-  background-color: #ffffff;
-  padding: 10px 20px;
-  border: 0;
-  outline: 0;
-  font-size: 20px;
-  font-weight: 600;
-  border-radius: 5px;
-  color: #005fac;
-  margin-bottom: 100px;
-}
+
 main {
   max-width: 1072px;
   margin: 0 auto;
 }
+/* about css */
 .about {
   display: flex;
   justify-content: center;
@@ -75,6 +80,7 @@ main {
   color: #16d887;
 }
 
+/* features css */
 .features {
   display: flex;
   justify-content: space-around;
@@ -83,6 +89,7 @@ main {
   margin-top: 20px;
 }
 
+/* highlight section */
 .highlight {
   background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0)),
     url(../images/watch.png);
@@ -105,7 +112,37 @@ main {
   color: #005fac;
   margin-bottom: 100px;
 }
-
+/* contact css */
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.contact-left {
+  width: 50%;
+}
+.contact-left img {
+  width: 100%;
+}
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-field {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 18px;
+  border: 0;
+  outline: 0;
+  border: 1px solid #005fac;
+}
+/* footer css */
 .footer {
   display: flex;
   justify-content: space-between;
